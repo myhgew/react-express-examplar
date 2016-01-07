@@ -2,6 +2,8 @@
 
 #### To run the app,
 1. Make sure `mongodb` is running in the background. 
+1.1 brew install mongodb
+1.2 sudo chown -R `id -u` /data/db (http://stackoverflow.com/questions/15229412/unable-to-create-open-lock-file-data-mongod-lock-errno13-permission-denied)
 2. Install global dependencies with `npm install -g gulp bower react-tools browserify`
 3. Install dependencies with `npm install; bower install`
 4. Run app with `gulp serve`
